@@ -979,7 +979,9 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
               />
             )}
           </div>
-          <div>Bezoek ook <a href='https://boek.blauwegeit.nl'>de Boeken van de Blauwe Geit</a></div>
+          <div>
+            Bezoek ook <a href="https://boek.blauwegeit.nl">de Boeken van de Blauwe Geit</a>
+          </div>
         </div>
       </div>
       {sourcePopupOpen() && <Popup isOpen={sourcePopupOpen()} value={sourcePopupSrc()} onClose={() => setSourcePopupOpen(false)} />}
