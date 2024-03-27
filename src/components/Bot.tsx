@@ -979,7 +979,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
               />
             )}
           </div>
-          <Badge badgeBackgroundColor={props.badgeBackgroundColor} poweredByTextColor={props.poweredByTextColor} botContainer={botContainer} />
+          <div>Bezoek ook <a href='https://boek.blauwegeit.nl'>de Boeken van de Blauwe Geit</a></div>
         </div>
       </div>
       {sourcePopupOpen() && <Popup isOpen={sourcePopupOpen()} value={sourcePopupSrc()} onClose={() => setSourcePopupOpen(false)} />}
