@@ -44,7 +44,7 @@ export const Badge = (props: Props) => {
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
     >
-      Bezoek ook 
+      Bezoek ook
       <a
         ref={liteBadge}
         href={'https://boek.blauwegeit.nl'}
